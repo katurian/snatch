@@ -14,7 +14,6 @@ def GetArticle(url, publication):
     article = Article(url)
     article.download()
     article.parse()
-    html = requests.get(url).text
     text = article.text
     label = label(url)
     if label == None:
