@@ -1,8 +1,4 @@
-import newspaper
 from newspaper import Article
-from newspaper import fulltext
-import requests
-
 
 def GetArticle_in():
     url = input("Enter the article's url: ")
