@@ -19,7 +19,7 @@ RSS Feeds too!
 * https://www.economist.com/the-world-this-week/rss.xml
 * https://www.economist.com/britain/rss.xml
 * https://www.economist.com/asia/rss.xml
-* http://rss.nytimes.com/services/xml/rss/nyt/World.xml
+* http://rss.nytimes.com/services/xml/rss/nyt/World.xml [Errno 22] 
 * http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
 * http://feeds.washingtonpost.com/rss/rss_fact-checker
 * https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en
