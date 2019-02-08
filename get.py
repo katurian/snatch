@@ -6,13 +6,13 @@ import requests
 
 def GetArticle(url, publication):
     def label(url):
-        count = 0
+        url_list = []
         for i in range(len(url)):
             if url[i] == "/":
-                count = count + 1
-            if count == 5:
-                return url[i + 1:-1]
-    if publication.lower() == "nyt" or publication.lower() == "new york times" or publication.lower() == "the new york times" or publication.lower() == "atlantic" or publication.lower() == "the atlantic":
+                url_list.append(i)
+        return url[url_list[len(url_list)-1] + 1:-1]
+
+    if publication.lower() == "nyt" or publication.lower() == "new york times" or publication.lower() == "the new york times" or publication.lower() == "atlantic" or publication.lower() == "the atlantic" or publication.lower() == "breitbart" or publication.lower() == "breitbart news":
         print("GetArticle() cannot retrieve all article content for this publication.")
     article = Article(url)
     article.download()
@@ -21,10 +21,10 @@ def GetArticle(url, publication):
     text = article.text
     label = label(url)
     if label == None:
-        label = "succ"
-    with open(publication + "_" + str(label) + ".txt", "w") as c:
+        label = "notitle"
+    with open(publication + "$" + str(label) + ".txt", "w") as c:
         c.write(text)
-        print("Article is at" + " " + (publication + "_" + str(label) + ".txt"))
+        print("Article is at" + " " + (publication + "$" + str(label) + ".txt"))
 
 
-GetArticle('https://www.bbc.com/news/world-us-canada-47166938', 'bbc')
+GetArticle('https://www.nytimes.com/2001/09/12/us/us-attacked-hijacked-jets-destroy-twin-towers-and-hit-pentagon-in-day-of-terror.html', 'nyt')
