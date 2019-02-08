@@ -11,9 +11,6 @@ def GetArticle(url, publication):
             if url[i] == "/":
                 url_list.append(i)
         return url[url_list[len(url_list)-1] + 1:-1]
-
-    if publication.lower() == "nyt" or publication.lower() == "new york times" or publication.lower() == "the new york times" or publication.lower() == "atlantic" or publication.lower() == "the atlantic" or publication.lower() == "breitbart" or publication.lower() == "breitbart news":
-        print("GetArticle() cannot retrieve all article content for this publication.")
     article = Article(url)
     article.download()
     article.parse()
