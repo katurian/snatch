@@ -23,4 +23,17 @@ To install Newspaper, enter this into your command line interpreter:
 pip install Newspaper3k
 ```
 
+### GetArticle_input.py
+Prompts the user for a URL outputs a text file labeled with the article's title and source publication. 
+
+Example:
+
+```
+Enter the article's url: https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology 
+Article is at www.wired.com$theres-no-good-reason-to-trust-blockchain-technolog.txt
+
+Process finished with exit code 0
+
+```
+
 
