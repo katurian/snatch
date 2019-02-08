@@ -20,4 +20,4 @@ def GetArticle():
         c.write(text)
     print("Article is at" + " " + ("$" + str(url[label[len(label)-1] + 1:-1]) + ".txt"))
 
-    GetArticle_in()
+GetArticle_in()
