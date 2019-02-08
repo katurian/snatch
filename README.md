@@ -77,7 +77,7 @@ Article is at www.mohavedailynews.com$article_333eff26-2b6b-11e9-a57d-939ef31198
 ---------------------------------------------------------------------------------------------------------------------------------------
 **Contact me at katekulinski@gmail.com if you have any questions!**
 
-RSS Sources:
-https://www.washingtonpost.com/discussions/2018/10/12/washington-post-rss-feeds/?utm_term=.2ab41638973a
-https://www.economist.com/rss
-https://archive.nytimes.com/www.nytimes.com/services/xml/rss/index.html
+More RSS Sources:
+* https://www.washingtonpost.com/discussions/2018/10/12/washington-post-rss-feeds/?utm_term=.2ab41638973a
+* https://www.economist.com/rss
+* https://archive.nytimes.com/www.nytimes.com/services/xml/rss/index.html
