@@ -29,6 +29,23 @@ Prompts the user for a URL and outputs a text file labeled with the article's ti
 Output example:
 
 ```
+Enter the article's url: https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology 
+Article is at www.wired.com$theres-no-good-reason-to-trust-blockchain-technolog.txt
+
+Process finished with exit code 0
+```
+**Note**: Make sure your article url does not end with a "/"
+
+      *Bad*: https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology/
+                                                                                            ^
+      *Good*: https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology
+
+
+### GetArticles.py
+Takes an **RSS** feed link as an argument then uses **FeedParser** (https://pythonhosted.org/feedparser/introduction.html) to retrieve article links, creating a list of URLs. It iterates through this list and outputs a text file for each URL item. You do not need to install **FeedParser**, as it comes with your Python installation by default.
+
+Example:
+```
 Article is at abc3340.com$energy-secretary-rick-perry-is-designated-survivo.txt
 Article is at knpr.org$senator-no-trust-sec-rick-perry-after-plutonium-transpor.txt
 Article is at www.nbcnews.com$rick-perry-designated-survivor-n96788.txt
@@ -43,13 +60,6 @@ Article is at lasvegassun.com$.txt
 Article is at www.mrt.com$Baker-Hughes-lands-equipment-contract-with-Golden-13598473.ph.txt
 Article is at www.usnews.com$globe-trotting-political-donor-eyed-in-trump-inaugural-prob.txt
 Article is at www.mohavedailynews.com$article_333eff26-2b6b-11e9-a57d-939ef3119872.htm.txt
-```
-
-### GetArticles.py
-Takes an **RSS** feed link as an argument then uses **FeedParser** (https://pythonhosted.org/feedparser/introduction.html) to retrieve article links, creating a list of URLs. It iterates through this list and outputs a text file for each URL item. You do not need to install **FeedParser**, as it comes with your Python installation by default.
-
-Example:
-```
 
 ```
 
