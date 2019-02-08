@@ -13,3 +13,4 @@ This works for most popular publications including:
 * new yorker
 * the new york times
 * smithsonian
+* current affairs
