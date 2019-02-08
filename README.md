@@ -15,6 +15,8 @@ This works for most popular publications including:
 * smithsonian
 * current affairs
 
+---------------------------------------------------------------------------------------------------------------------------------------
+
 ### GetArticle.py
 Takes a URL argument and outputs a text file labeled with the article's title and source publication. Uses the **Newspaper** package: https://newspaper.readthedocs.io/en/latest/
 
