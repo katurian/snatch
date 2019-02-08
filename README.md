@@ -11,3 +11,4 @@ This works for most popular publications including:
 * mit technology review
 * jacobin
 * new yorker
+* the new york times
