@@ -24,7 +24,7 @@ To install Newspaper, enter this into your command line interpreter:
 ```
 pip install Newspaper3k
 ```
-
+---------------------------------------------------------------------------------------------------------------------------------------
 ### GetArticle_input.py
 Prompts the user for a URL and outputs a text file labeled with the article's title and source publication. Also uses **Newspaper**.
 
@@ -42,7 +42,7 @@ Process finished with exit code 0
                                                                                             ^
       Good: https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology
 
-
+---------------------------------------------------------------------------------------------------------------------------------------
 ### GetArticles.py
 Takes an **RSS** feed link as an argument then uses **FeedParser** (https://pythonhosted.org/feedparser/introduction.html) to retrieve article links, creating a list of URLs. It iterates through this list and outputs a text file for each URL item. You do not need to install **FeedParser**, as it comes with your Python installation by default.
 
