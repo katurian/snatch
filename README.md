@@ -15,6 +15,15 @@ This works for most popular publications including:
 * smithsonian
 * current affairs
 
+RSS Feeds too!
+* https://www.economist.com/the-world-this-week/rss.xml
+* https://www.economist.com/britain/rss.xml
+* https://www.economist.com/asia/rss.xml
+* http://rss.nytimes.com/services/xml/rss/nyt/World.xml
+* http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+* http://feeds.washingtonpost.com/rss/rss_fact-checker
+* https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 ### GetArticle.py
@@ -67,3 +76,8 @@ Article is at www.mohavedailynews.com$article_333eff26-2b6b-11e9-a57d-939ef31198
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 **Contact me at katekulinski@gmail.com if you have any questions!**
+
+RSS Sources:
+https://www.washingtonpost.com/discussions/2018/10/12/washington-post-rss-feeds/?utm_term=.2ab41638973a
+https://www.economist.com/rss
+https://archive.nytimes.com/www.nytimes.com/services/xml/rss/index.html
