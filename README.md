@@ -36,9 +36,9 @@ Process finished with exit code 0
 ```
 **Note**: Make sure your article url does not end with a "/"
 
-      *Bad*: https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology/
+      Bad: https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology/
                                                                                             ^
-      *Good*: https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology
+      Good: https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology
 
 
 ### GetArticles.py
