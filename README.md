@@ -24,7 +24,7 @@ pip install Newspaper3k
 ```
 
 ### GetArticle_input.py
-Prompts the user for a URL outputs a text file labeled with the article's title and source publication. 
+Prompts the user for a URL and outputs a text file labeled with the article's title and source publication. 
 
 Example:
 
