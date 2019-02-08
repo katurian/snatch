@@ -12,3 +12,4 @@ This works for most popular publications including:
 * jacobin
 * new yorker
 * the new york times
+* smithsonian
