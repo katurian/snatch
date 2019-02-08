@@ -1,8 +1,4 @@
-import newspaper
 from newspaper import Article
-from newspaper import fulltext
-import requests
-
 
 def GetArticle(url, publication):
     def label(url):
