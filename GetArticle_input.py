@@ -1,6 +1,6 @@
 from newspaper import Article
 
-def GetArticle():
+def GetArticle_in():
     url = input("Enter the article's url: ")
     url = url[0:len(url)-1]
     def label(url):
@@ -8,7 +8,7 @@ def GetArticle():
         for i in range(len(url)):
             if url[i] == "/":
                 url_list.append(i)
-            return url_list
+        return url_list
     article = Article(url)
     article.download()
     article.parse()
