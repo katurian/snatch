@@ -33,7 +33,6 @@ Enter the article's url: https://www.wired.com/story/theres-no-good-reason-to-tr
 Article is at www.wired.com$theres-no-good-reason-to-trust-blockchain-technolog.txt
 
 Process finished with exit code 0
-
 ```
 
 
