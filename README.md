@@ -5,7 +5,7 @@ This works for most popular publications including:
 * washington post
 * economist
 * wired
-* atlantic (sorta)
+* atlantic
 * politico
 * vox
 * mit technology review
