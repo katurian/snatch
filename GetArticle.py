@@ -6,7 +6,7 @@ def GetArticle(url):
         for i in range(len(url)):
             if url[i] == "/":
                 url_list.append(i)
-            return url_list
+        return url_list
     article = Article(url)
     article.download()
     article.parse()
