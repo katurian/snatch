@@ -1,12 +1,13 @@
 from newspaper import Article
 
-def GetArticle(url):
-    def label(url):
-        url_list = []
-        for i in range(len(url)):
-            if url[i] == "/":
-                url_list.append(i)
+def label(url):
+    url_list = []
+    for i in range(len(url)):
+        if url[i] == "/":
+            url_list.append(i)
         return url_list
+    
+def GetArticle(url):
     article = Article(url)
     article.download()
     article.parse()
