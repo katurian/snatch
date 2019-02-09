@@ -7,15 +7,14 @@ def getURLs(feed):
     for l in(d['entries']:
         link = d['entries'][l]['link']
         links.append(link)
-   return links
+    return links
 
 def label(url):
     url_list = []
     for i in range(len(url)):
         if url[i] == "/":
             url_list.append(i)
-        return url_list
-    
+        return url_list    
     
 def GetArticles(feed):
     rss_links = getURLs(feed)
