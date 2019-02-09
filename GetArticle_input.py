@@ -5,7 +5,7 @@ def label(url):
     for i in range(len(url)):
         if url[i] == "/":
             url_list.append(i)
-        return url_list
+    return url_list
     
 def GetArticle_in():
     url = input("Enter the article's url: ")
@@ -14,9 +14,9 @@ def GetArticle_in():
     article.download()
     article.parse()
     text = article.text
-    label = label(url)
-    with open(str(url[label[1] + 1:label[2]]) + "$" + str(url[label[len(label)-1] + 1:-1]) + ".txt", "w") as c:
+    parsed = label(url)
+    with open(str(url[parsed[1] + 1:parsed[2]]) + "$" + str(url[parsed[len(parsed)-1] + 1:-1]) + ".txt", "w", encoding='utf8', errors='ignore') as c:
         c.write(text)
-    print("Article is at" + " " + (str(url[label[1] + 1:label[2]]) + "$" + str(url[label[len(label)-1] + 1:-1]) + ".txt"))
+    print("Article is at" + " " + (str(url[parsed[1] + 1:parsed[2]]) + "$" + str(url[parsed[len(parsed)-1] + 1:-1]) + ".txt"))
 
 GetArticle_in()
